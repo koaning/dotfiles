@@ -157,7 +157,7 @@ elif [[ -f ./.venv/bin/activate ]]; then
 fi
 
 # Global Just utilities alias
-alias kmd='just -g'
+alias kmd='just --justfile ~/dotfiles/.justfile'
 
 # Otherwise cairosvg will fail
 export DYLD_LIBRARY_PATH="/usr/local/lib:/opt/homebrew/lib:$DYLD_LIBRARY_PATH" 
