@@ -17,7 +17,7 @@ myip:
 [group('blog')]
 [working-directory: '/Users/vincentwarmerdam/Development/blog']
 write:
-    python3 -m webbrowser -t "http://127.0.0.1:5000"
+    python3 -m webbrowser -t "http://localhost:5000"
     uvx --from "python-dotenv[cli]" dotenv run -- uvx --with git+https://github.com/koaning/draft draft --write-folder /Users/vincentwarmerdam/Development/blog/content/posts/2025
 
 # Deploy the blog
