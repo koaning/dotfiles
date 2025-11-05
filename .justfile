@@ -56,4 +56,4 @@ diskusage path=".":
 
 # List the directory tree
 tree depth="1":
-    @uv run {{justfile_directory()}}/rich-ls.py . --depth {{depth}} --gitignore
+    @uv run ~/dotfiles/juststuff/rich-ls.py . --depth {{depth}} --gitignore --show-hidden --exclude .git
