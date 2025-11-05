@@ -28,5 +28,5 @@ jobs:
     
     - name: Run tests
       run: |
-        uvx --with rich --with typer --with pathspec pytest rich-ls.py
+        uvx --with rich --with typer --with pathspec pytest juststuff/rich-ls.py
     
