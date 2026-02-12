@@ -1,3 +1,8 @@
+---
+name: conductor-setup
+description: Helps create or update a conductor.json file for a project. Use when setting up Conductor scripts, configuring workspace setup/run/archive commands, or when the user asks about conductor.json configuration.
+---
+
 # Conductor Setup
 
 This skill helps you create a `conductor.json` file for your project.
